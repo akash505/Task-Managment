@@ -1,0 +1,34 @@
+body {
+  padding: 20px;
+}
+
+.task-form-container,
+.task-list-container {
+  margin-top: 20px;
+}
+
+.task-item {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-details {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .task-form-container,
+  .task-list-container {
+    margin-top: 10px;
+  }
+
+  .task-item,
+  .task-details {
+    padding: 10px;
+  }
+}
